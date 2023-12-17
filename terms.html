@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/terms.css">
+    <title>Document</title>
+</head>
+<body>
+    <main class="main-container">
+        <div class="main-container-box">
+           <div class="logo-container">
+               <img src="assets/rtuLogo.png" alt="">
+           </div>
+
+           <div class="main-container-content">
+                <div class="scroll-bg">
+                    <div class="terms-condition-text">
+                        <h1>Terms of Services</h1>
+                    </div>
+                    <div class="scroll-div">
+                        <div class="scroll-object">
+                           
+                            <div class="list-bullet">
+                                <h3>Book Borrowing:</h3>
+                                <ul>
+                                    <li>Borrowed books must be returned by the specified due date.</li>
+                                    <li>Overdue fines may apply for late returns.</li>
+                                </ul>
+                            </div>
+                            <div class="list-bullet">
+                                <h3>Book Borrowing:</h3>
+                                <ul>
+                                    <li>Borrowed books must be returned by the specified due date.</li>
+                                    <li>Overdue fines may apply for late returns.</li>
+                                </ul>
+                            </div>
+                            <div class="list-bullet">
+                                <h3>Book Borrowing:</h3>
+                                <ul>
+                                    <li>Borrowed books must be returned by the specified due date.</li>
+                                    <li>Overdue fines may apply for late returns.</li>
+                                </ul>
+                            </div>
+                            <div class="list-bullet">
+                                <h3>Book Borrowing:</h3>
+                                <ul>
+                                    <li>Borrowed books must be returned by the specified due date.</li>
+                                    <li>Overdue fines may apply for late returns.</li>
+                                </ul>
+                            </div>
+                            <p class="end-text">By using our library system, you acknowledge that you have read and agree to adhere to these terms and conditions. Enjoy your book borrowing experience!</p>
+                        </div>
+                    </div>
+                   <form action="register.html" id="acceptForm">
+                        <div class="check-box">
+                            <input type="checkbox" required>
+                            <label for="">Check the box to proceed</label>
+                        </div>
+                        <div class="scroll-btn">
+                            <button class="decline">Decline</button>
+                            <button class="accept" id="acceptBtn">Accept</button>
+                        </div>
+                   </form>
+                </div>
+           </div>
+        </div>
+        </div>   
+   </main>
+   <script>
+       document.getElementById("acceptForm").addEventListener("submit", function(event) {
+        const checkbox = document.querySelector('input[type="checkbox"]');
+        if(!checkbox.checked){
+            alert('Please check the box to proceed.');
+            event.preventDefault(); // Prevent form submission
+        }
+       })
+   </script>
+</body>
+</html>

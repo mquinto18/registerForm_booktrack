@@ -1,0 +1,72 @@
+.scroll-bg{
+    margin-top: 20px;
+    background-color: #ffffff;
+    box-shadow: 2.5px 2.5px 5px -1px rgba(0, 0, 0, 0.25);
+}
+.scroll-div{
+    height: 400px;
+    background-color: #ffffff;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+.terms-condition-text {
+    padding: 10px 20px ;
+    border-bottom: 2px solid #D9D9D9;
+}
+.terms-condition-text h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 21px;
+    font-weight: 600;
+    color: #415570;
+}
+.list-bullet{
+    padding: 10px 20px ;
+}
+.list-bullet h3{
+    color: #415570;
+    font-family: 'Poppins', sans-serif;
+}
+.list-bullet li{
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    color: rgba(0,0,0,0.65);
+}
+.end-text{
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    padding: 10px 20px ;
+    color: rgba(0,0,0,0.65);
+}
+.scroll-btn{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    padding: 20px 20px ;
+}
+.scroll-btn button{
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    border: none;
+    height: 42px;
+    cursor: pointer;
+}
+.decline{
+    background-color: #6B1F0F;
+    color: white;
+}
+.accept{
+    background-color: #374F6D;
+    color: white;
+}
+.check-box{
+    padding: 20px 20px ;
+    display: flex;
+    gap: 10px;
+}
+.check-box label{
+    font-family: 'Poppins', sans-serif;
+    color: rgba(0,0,0,0.65);
+    font-size: 12px;
+}
